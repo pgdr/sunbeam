@@ -9,7 +9,8 @@ set(PYTHON_SOURCES
     sunbeam.py
     config.py
     properties.py
-    schedule.py)
+    schedule.py
+    piecewiselinear.py)
 
 add_python_package(sunbeam sunbeam "${PYTHON_SOURCES}")
 install(TARGETS sunbeam DESTINATION "${PYTHON_INSTALL_PREFIX}/sunbeam")
